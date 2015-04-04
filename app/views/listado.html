@@ -1,14 +1,15 @@
 <div class="row">
 	<div class="col">
-		<table class="table table-hover table-bordered table-striped" ng-controller="ListadoCtrl">
-			<thead class="active" style="background-color:#FF00FF">
+		<h2>Listado</h2>
+		<table class="table table-hover table-striped" ng-controller="ListadoCtrl">
+			<thead class="active" style="background-color:#">
 				<th>Fecha</th>
 				<th>Nombre</th>
 				<th>Apellido</th>
 				<th>Correo</th>
 			</thead>
 			<tbody ng-repeat="registro in registros">
-				<td>{{ registro.fecha }}</td>
+				<td>{{ registro.fecha | date: format: 'dd-MM-yyyy' }}</td>
 				<td>{{ registro.nombre }}</td>
 				<td>{{ registro.apellido }}</td>
 				<td>{{ registro.correo }}</td>

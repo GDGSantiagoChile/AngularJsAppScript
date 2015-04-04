@@ -1,0 +1,33 @@
+.navbar-default {
+	background: #548;
+	border: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	font-size: 16px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	background: #6652A3;
+	color: #fff;
+}
+
+.btn-success {
+	background: #548;
+	border-color: #548;
+}
+
+th {
+	background: #548;
+	color: #fff;
+}
+
+tbody {
+	odd: #A9A9F5;
+	color: #548;
+}
+
+h2 {
+	color: #548;
+}
