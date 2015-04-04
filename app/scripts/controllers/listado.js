@@ -9,12 +9,8 @@
  */
 angular.module( 'angularclApp' )
 
-  .controller( 'ListadoCtrl', function ( $scope, appScriptService ) {
+  .controller( 'ListadoCtrl', function ( $scope, listadoFactory ) {
 
-  	appScriptService.query().$promise.then( function ( response ) {
-    	
-    	$scope.registros = response;
-
-    });
-
+  	$scope.registros = listadoFactory.lista;
+  	
   });
