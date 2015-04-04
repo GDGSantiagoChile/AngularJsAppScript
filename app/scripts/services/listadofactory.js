@@ -11,10 +11,13 @@ angular.module( 'angularclApp' )
 
   .factory( 'listadoFactory', function ( appScriptService ) {
 
-    var listado = {};
+    var listado = {
 
-    listado.lista = appScriptService.query();
-    
+      listar: appScriptService.query(),
+      
+    };
+
+
     return listado;
 
   });

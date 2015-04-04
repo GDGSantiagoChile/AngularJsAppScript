@@ -11,6 +11,6 @@ angular.module( 'angularclApp' )
 
   .controller( 'ListadoCtrl', function ( $scope, listadoFactory ) {
 
-  	$scope.registros = listadoFactory.lista;
-  	
+  	$scope.registros = listadoFactory.listar;
+
   });
