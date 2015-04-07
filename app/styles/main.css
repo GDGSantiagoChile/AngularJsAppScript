@@ -16,6 +16,20 @@
 .btn-success {
 	background: #548;
 	border-color: #548;
+	margin-bottom: 20px;
+}
+
+.btn-right {
+	float: right;
+	position: relative;
+	bottom: 3em;
+	right: 3em;
+}
+
+.responsive-table {
+	display: block;
+	height: 500px;
+	overflow-y: auto;
 }
 
 th {

@@ -1,0 +1,26 @@
+<div>
+	<div class="modal-header">
+		<h3 class="modal-title" align="center">Creación de nuevo registro</h3>
+	</div>
+	<form ng-submit="guardar()" name="nRegForm">
+		<div class="modal-body">
+			<div class="form-group" ng-class="{'has-error': nRegForm.nombre.$invalid, 'has-success': nRegForm.nombre.$valid}">
+				<label>Nombres</label>
+				<input type="text" class="form-control" name="nombre" placeholder="Nombres" ng-model="nombre" required>
+			</div>
+			<div class="form-group" ng-class="{'has-error': nRegForm.apellido.$invalid, 'has-success': nRegForm.apellido.$valid}">
+				<label>Apellidos</label>
+				<input type="text" class="form-control" name="apellido" placeholder="Apellidos" ng-model="apellido" required>
+			</div>
+			<div class="form-group" ng-class="{'has-error': nRegForm.correo.$invalid, 'has-success': nRegForm.correo.$valid}">
+				<label>Correo electrónico</label>
+				<input type="email" class="form-control" name="correo" placeholder="Correo Electrónico" ng-model="correo" required>
+			</div>
+		</div>
+		<div class="modal-footer" align="right">
+			<button class="btn btn-primary" type="submit" ng-disabled="nRegForm.$invalid" ><span class="glyphicon glyphicon-ok"></span> Guardar</button>
+			<button class="btn btn-default" ng-click="limpiar()"><span class="glyphicon glyphicon-refresh"></span> Limpiar</button>
+			<button class="btn btn-danger" ng-click="cancelar()"><span class="glyphicon glyphicon-remove"></span> Cancelar</button>
+		</div>
+	</form>
+</div>

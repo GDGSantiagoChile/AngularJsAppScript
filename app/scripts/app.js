@@ -1,22 +1,17 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name angularclApp
- * @description
- * # angularclApp
- *
- * Main module of the application.
- */
 angular
+
   .module( 'angularclApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.bootstrap'
   ])
+  
   .config( function ( $routeProvider ) {
 
     $routeProvider
@@ -30,4 +25,5 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+
   });
