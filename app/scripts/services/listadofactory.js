@@ -8,7 +8,11 @@ angular.module( 'angularclApp' )
 
       listar: appScriptService.query(),
       guardar: function ( data ) {
-      	appScriptService.save( data );
+      	var postData = new appScriptService;
+      	postData.nombre = data.nombre;
+      	postData.apellido = data.apellido;
+      	postData.correos = data.correo;
+      	postData.$save();
       },
       
     };

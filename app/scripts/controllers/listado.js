@@ -25,9 +25,6 @@ angular.module( 'angularclApp' )
 
   	$scope.guardarRegistro = function ( data ) {
 
-  		$log.info( data.nombre );
-  		$log.info( data.apellido );
-  		$log.info( data.correo );
   		var res = listadoFactory.guardar( data );
   		$scope.registros = listadoFactory.listar;
 
