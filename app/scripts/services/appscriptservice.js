@@ -6,6 +6,8 @@ angular.module( 'angularclApp' )
 
   	var url = 'https://script.google.com/macros/s/AKfycbxt4LCprQGTu00NkWDwUBHhIy4GCosUj3NjV5sG8su46ej4R8k/exec';
 
-  	return $resource( url );
-
+  	return $resource( url, {}, {
+  		'put': { method: 'get', isArray: false, },
+  	});
+  	
   });

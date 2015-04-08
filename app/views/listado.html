@@ -15,7 +15,7 @@
 					<th>Correo</th>
 				</thead>
 				<tbody ng-repeat="registro in registros">
-					<td>{{ registro.fecha | date: format: 'dd-MM-yyyy' }}</td>
+					<td>{{ registro.fecha | date:'medium' }}</td>
 					<td>{{ registro.nombre }}</td>
 					<td>{{ registro.apellido }}</td>
 					<td>{{ registro.correo }}</td>

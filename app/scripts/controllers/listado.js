@@ -15,18 +15,25 @@ angular.module( 'angularclApp' )
 
   		modalInstance.result.then( function ( data ) {
 
-  			$scope.guardarRegistro( data );
+        var values = {
+          fecha: new Date(),
+          nombre: data.nuevoReg.nombre,
+          apellido: data.nuevoReg.apellido,
+          correo: data.nuevoReg.correo,
+        }
 
-  		}, function () {
-  			$log.info( 'Operación cancelada' );
-  		});
+  			$scope.guardarRegistro( values );
 
-  	};
+      }, function () {
+        $log.info( 'Operación cancelada' );
+      });
 
-  	$scope.guardarRegistro = function ( data ) {
+    };
 
-  		var res = listadoFactory.guardar( data );
-  		$scope.registros = listadoFactory.listar;
+    $scope.guardarRegistro = function ( values ) {
+
+      listadoFactory.guardar( values );
+      $scope.registros.push( values );
 
   	};
 

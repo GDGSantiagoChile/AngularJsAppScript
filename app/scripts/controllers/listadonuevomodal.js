@@ -18,9 +18,7 @@ angular.module( 'angularclApp' )
 
   	$scope.limpiar = function () {
 
-  		$scope.nombre = '';
-	  	$scope.apellido = '';
-	  	$scope.correo = '';
+  		$scope.nuevoReg = {};
 
   	};
 

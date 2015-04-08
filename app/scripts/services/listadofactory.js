@@ -7,12 +7,17 @@ angular.module( 'angularclApp' )
     var listado = {
 
       listar: appScriptService.query(),
-      guardar: function ( data ) {
-      	var postData = new appScriptService;
-      	postData.nombre = data.nombre;
-      	postData.apellido = data.apellido;
-      	postData.correos = data.correo;
-      	postData.$save();
+      guardar: function ( values ) {
+
+        var data = {
+          type: 'post',
+          fecha: values.fecha,
+          nombre: values.nombre,
+          apellido: values.apellido,
+          correo: values.correo,
+        }
+        appScriptService.put( data );
+        
       },
       
     };
