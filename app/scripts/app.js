@@ -12,7 +12,12 @@ angular
     'ui.bootstrap'
   ])
   
-  .config( function ( $routeProvider ) {
+  .config( function ( $routeProvider, $locationProvider ) {
+
+    $locationProvider.html5Mode({
+      enabled: true,
+      requiredBase: false
+    });
 
     $routeProvider
       .when( '/', {
