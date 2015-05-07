@@ -1,0 +1,16 @@
+<div class="responsive-table">
+	<table class="table table-hover table-striped">
+		<thead class="active" style="background-color:#">
+			<th>Fecha</th>
+			<th>Nombre</th>
+			<th>Apellido</th>
+			<th>Correo</th>
+		</thead>
+		<tbody ng-repeat="registro in registros | filter:buscarPor | orderBy: '-fecha' ">
+			<td>{{ registro.fecha | date:'medium' }}</td>
+			<td>{{ registro.nombre }}</td>
+			<td>{{ registro.apellido }}</td>
+			<td>{{ registro.correo }}</td>
+		</tbody>
+	</table>
+</div>

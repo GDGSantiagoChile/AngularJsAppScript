@@ -1,0 +1,17 @@
+<div class="row" ng-controller="ListadoCtrl">
+	<div class="col-xs-12 col-md-12">
+		<div>
+			<h2>Listado</h2> 
+			<div class="form-inline">
+				<div class="form-group">
+					<input type="text" class="form-control" style="width:800px;" name="filtro" placeholder="Buscar..." ng-model="buscarPor">
+				</div>
+				<button class="btn btn-success" title="Crear nuevo registro" ng-click="nuevoRegistro()">
+					<span class="glyphicon glyphicon-plus"></span> Nuevo
+				</button>
+			</div>
+		</div>
+		<br>
+		<tabla-listado></tabla-listado>
+	</div>
+</div>

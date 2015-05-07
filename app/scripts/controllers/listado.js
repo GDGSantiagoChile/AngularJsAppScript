@@ -9,7 +9,7 @@ angular.module( 'angularclApp' )
   	$scope.nuevoRegistro = function () {
 
   		var modalInstance = $modal.open({
-  			templateUrl: 'views/listado-nuevo-modal.html',
+  			templateUrl: 'views/listado/listado-nuevo-modal.html',
   			controller: 'ListadonuevomodalCtrl',
   		});
 

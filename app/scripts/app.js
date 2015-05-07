@@ -18,7 +18,7 @@ angular
         templateUrl: 'views/inicio.html'
       })
       .when( '/listado', {
-        templateUrl: 'views/listado.html',
+        templateUrl: 'views/listado/listado.html',
         controller: 'ListadoCtrl'
       })
       .otherwise({

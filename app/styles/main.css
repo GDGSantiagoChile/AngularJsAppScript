@@ -16,7 +16,6 @@
 .btn-success {
 	background: #548;
 	border-color: #548;
-	margin-bottom: 20px;
 }
 
 .btn-right {
@@ -24,6 +23,7 @@
 	position: relative;
 	bottom: 3em;
 	right: 3em;
+	margin-bottom: 20px;
 }
 
 .responsive-table {
