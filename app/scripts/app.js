@@ -1,7 +1,6 @@
 'use strict';
 
 angular
-
   .module( 'angularclApp', [
     'ngAnimate',
     'ngCookies',
@@ -11,7 +10,6 @@ angular
     'ngTouch',
     'ui.bootstrap'
   ])
-  
   .config( function ( $routeProvider ) {
     $routeProvider
       .when( '/', {
