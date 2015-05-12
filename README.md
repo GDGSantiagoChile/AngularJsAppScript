@@ -2,7 +2,9 @@
 
 Objetivos de esta demo:
 * Conocer y comprender las principales características de este framework.
-* Utilizar el generador [yo angular generator](https://github.com/yeoman/generator-angular)
+* Como utilizar el generador [yo angular generator](https://github.com/yeoman/generator-angular)
+* Desplegar una aplicación Angular con GruntJS
+
 
 * [Creado por Christian Rojas](https://github.com/roofcat)
 * [Presentación Google](https://docs.google.com/presentation/d/1hjCD_ZwwmSLsXNJ3bY-AmKCvHrzl-rkTargrbbHRFN4/edit)
