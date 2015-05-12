@@ -8,6 +8,8 @@ Objetivos de esta demo:
 
 * [Creado por Christian Rojas](https://github.com/roofcat)
 * [Presentación Google](https://docs.google.com/presentation/d/1hjCD_ZwwmSLsXNJ3bY-AmKCvHrzl-rkTargrbbHRFN4/edit)
+* [Código y Proyecto Apps Scripts](https://script.google.com/d/1O1GvyJqsqpNnlUgkJb093mZoYx33thZda1y5nFPX882HeLBUm-OHvWoY/edit?usp=drive_web)
+* [Planilla Google](https://docs.google.com/spreadsheets/d/1gaQTas9eKSmE0iw6UScyFB4jiaJGlWeNDxffZwVplFQ/edit#gid=0)
 
 ## Documentación
 * [AngularJS](https://angularjs.org/)
