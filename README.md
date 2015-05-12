@@ -12,6 +12,7 @@ Objetivos de esta demo:
 ## Documentación
 * [AngularJS](https://angularjs.org/)
 * [Curso gratis AngularJS - Codeschool](http://campus.codeschool.com/courses/shaping-up-with-angular-js/)
+* [Curso AngularJS - Jesús Conde](https://www.youtube.com/playlist?list=PLEtcGQaT56cgHfdvGguisToK90z321pRl)
 * [Yeoman](http://yeoman.io/)
 * [Bower](http://bower.io/)
 * [GruntJS](http://gruntjs.com/)
