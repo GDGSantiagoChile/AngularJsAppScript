@@ -18,6 +18,7 @@ Objetivos de esta demo:
 * [Yeoman](http://yeoman.io/)
 * [Bower](http://bower.io/)
 * [GruntJS](http://gruntjs.com/)
+* [Angular.ui-Bootstrap](https://angular-ui.github.io/bootstrap/)
 
 ## Descargas
 * [Node.js](https://nodejs.org/download)
